@@ -14,15 +14,14 @@ function factorial(n) {
 
 // Find the Largest Number
 function findLargest(arr) {
-  let num = arr[0];         
-  for (let i = 1; i < arr.length; i++) { 
+  let num = 0;
+  for (let i = 1; i <= arr.length; i++) {
     if (arr[i] > num) {
       num = arr[i];
     }
   }
-  return num;
+  return (num)
 }
-
 
 // Count Vowels in a String
 function countVowels(str) {
